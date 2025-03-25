@@ -22,7 +22,7 @@ function CodeEditor.new(parent)
     
     -- Try to load the original IDE module that contains the code editing capabilities
     local success, result = pcall(function()
-        return loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/editor.lua"))()
+        return loadstring(game:HttpGet("https://raw.githubusercontent.com/biggaboy212/In-Game-IDE/main/update8/IDEModule.lua"))()
     end)
     
     if success then

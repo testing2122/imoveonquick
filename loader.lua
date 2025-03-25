@@ -43,7 +43,7 @@ local function loadModule(name)
     -- If both fail, try to use the original IDE module
     if name == "editor" then
         success, content = pcall(function()
-            return game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/editor.lua")
+            return game:HttpGet("https://raw.githubusercontent.com/biggaboy212/In-Game-IDE/main/update8/IDEModule.lua")
         end)
         
         if success then
@@ -54,6 +54,9 @@ local function loadModule(name)
     
     error("Failed to load module: " .. name)
 end
+
+-- Make loadModule available to other modules
+_G.LunaIDE_loadModule = loadModule
 
 -- Load the main module first
 local LunaIDE = loadModule("main")
