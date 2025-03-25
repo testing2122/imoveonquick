@@ -3,7 +3,7 @@
     This script loads the LunaIDE into your Roblox experience.
     
     Usage:
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/loader.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/loader.lua"))()
 ]]
 
 -- Core modules list
@@ -32,7 +32,7 @@ local function loadModule(name)
     
     -- If that fails, try to load from GitHub
     success, content = pcall(function()
-        return game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/" .. name .. ".lua")
+        return game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/" .. name .. ".lua")
     end)
     
     if success then
@@ -43,7 +43,7 @@ local function loadModule(name)
     -- If both fail, try to use the original IDE module
     if name == "editor" then
         success, content = pcall(function()
-            return game:HttpGet("https://raw.githubusercontent.com/biggaboy212/In-Game-IDE/refs/heads/main/update8/IDEModule.lua")
+            return game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/editor.lua")
         end)
         
         if success then

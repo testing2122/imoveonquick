@@ -17,15 +17,15 @@ local TweenService = game:GetService("TweenService")
 local HttpService = game:GetService("HttpService")
 
 -- Directories where components are stored
-local BASE_URL = "https://raw.githubusercontent.com/biggaboy212/In-Game-IDE/refs/heads/main/update8/IDEModule.lua"
+local BASE_URL = "https://raw.githubusercontent.com/testing2122/imoveonquick/main/editor.lua"
 
 -- Import components
 local Components = {
-    UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/ui.lua"))(),
-    CodeEditor = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/editor.lua"))(),
-    FileSystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/filesystem.lua"))(),
-    Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/settings.lua"))(),
-    Utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/utilities.lua"))(),
+    UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/ui.lua"))(),
+    CodeEditor = loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/editor.lua"))(),
+    FileSystem = loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/filesystem.lua"))(),
+    Settings = loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/settings.lua"))(),
+    Utilities = loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/utilities.lua"))(),
 }
 
 -- For development, allow local loading of files

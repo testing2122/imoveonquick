@@ -3,8 +3,8 @@
     This script can be directly executed to load the IDE
 ]]
 
--- Use this line to load the IDE in your scripts
-loadstring(readfile("D:/lunaIDE/loader.lua"))()
+-- Load the IDE directly from GitHub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/loader.lua"))()
 
--- Or use this if you're uploading to GitHub:
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/loader.lua"))() 
+-- Local development version (commented out):
+-- loadstring(readfile("D:/lunaIDE/loader.lua"))() 

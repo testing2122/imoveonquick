@@ -21,7 +21,7 @@ LunaIDE is a beautiful, feature-rich code editor for Roblox with a moonlight pur
 To use LunaIDE in your Roblox experience, simply execute this code:
 
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/LunaIDE/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/loader.lua"))()
 ```
 
 ## Usage

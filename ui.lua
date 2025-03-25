@@ -23,7 +23,7 @@ local Utilities
 function UI.new(parent)
     local self = setmetatable({}, UI)
     self.Parent = parent
-    Utilities = parent.Utilities or loadstring(readfile("D:/lunaIDE/utilities.lua"))()
+    Utilities = parent.Utilities or loadstring(game:HttpGet("https://raw.githubusercontent.com/testing2122/imoveonquick/main/utilities.lua"))()
     self.Connections = {}
     self.Dragging = false
     self.DragStart = nil
